@@ -1,0 +1,80 @@
+ @import url('https://fonts.googleapis.com/css?family=Maven+Pro');
+ body{
+    background-image: url(“./img/main-bg.jpeg”);
+    width: 100%;
+    /*height: 700px;*/
+    background-size: cover;
+    font-family: 'Maven Pro', sans-serif;
+}
+ .header-wrapper{
+     width: 100vw;
+     border: solid blue 5px;
+     display: flex;
+     justify-content: space-around;
+     font-size: 20px;
+     font-weight: bolder;
+ }   
+ .home-box{
+     width: 33%;
+     border: solid green 5px;
+     text-align: center;
+ }
+.about-box{
+     width: 33%;
+     border: solid purple 5px;
+     text-align: center;
+}
+.story-box{
+     width: 33%;
+     border: solid purple 5px;
+     text-align: center;
+}
+.shrunk-wrapper{
+    width: 100%;
+    border: solid orange 5px;
+}
+.soc-med-wrapper{
+     width: 100;
+     border: solid red 5px;
+     display: flex;
+     justify-content: flex-end;
+}
+.twitter-box{
+     width: 17.5%;
+     border: solid green 5px;
+}
+.fb-box{
+     width: 17.5%;
+     border: solid green 5px;
+}
+.ham-menu{
+    width: 17.5%;
+    border: solid green 5px;
+}
+.main-text-wrapper{
+    width: 100vw;
+    height: 50vh;
+    border: solid pink 5px;
+       
+}
+.your{
+    border: solid red 1px;
+    width: 50%;
+    height: 75%;
+    text-align: center;
+    margin: auto;
+    font-weight: bolder;
+    font-size: 15vh;
+}
+.sub-heading{
+     width: 50%;
+     border: solid green 1px;
+     text-align: center;
+     height: 25%;
+     margin: auto;
+}
+#arrow-box{
+width: 25px;
+height: 25px;
+border: solid black;
+}
