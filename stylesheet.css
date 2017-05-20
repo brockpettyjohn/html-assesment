@@ -1,66 +1,100 @@
+ 
  @import url('https://fonts.googleapis.com/css?family=Maven+Pro');
  body{
-    background-image: url(“./img/main-bg.jpeg”);
-    width: 100%;
-    /*height: 700px;*/
+    background-image: url("main-bg.jpeg");
+    width: 100vw;
+    height: 100vh;
     background-size: cover;
     font-family: 'Maven Pro', sans-serif;
+    color: white;
+    background-repeat: no-repeat;
 }
  .header-wrapper{
      width: 100vw;
-     border: solid blue 5px;
+     /*border: solid blue 1px;*/
      display: flex;
      justify-content: space-around;
-     font-size: 20px;
+     font-size: 35px;
      font-weight: bolder;
- }   
+ } 
  .home-box{
      width: 33%;
-     border: solid green 5px;
+     /*border: solid green 1px;*/
      text-align: center;
  }
 .about-box{
      width: 33%;
-     border: solid purple 5px;
+     /*border: solid purple 1px;*/
      text-align: center;
 }
 .story-box{
      width: 33%;
-     border: solid purple 5px;
+     /*border: solid purple 1px;*/
      text-align: center;
 }
 .shrunk-wrapper{
     width: 100%;
-    border: solid orange 5px;
+    /*border: solid orange 1px;*/
 }
 .soc-med-wrapper{
      width: 100;
-     border: solid red 5px;
+     height: 10vh;
+     /*border: solid red 1px;*/
      display: flex;
      justify-content: flex-end;
+     text-align: center;
+     margin-top: -70px;
+     margin-right: 25px;
 }
+
 .twitter-box{
-     width: 17.5%;
-     border: solid green 5px;
+    /*background-image: url("https://ton.twimg.com/dtc/002db782-0ec6-4165-b9b7-a335848ad1c8/_static/imgs/DTC_Services_1h_hero_bg.png");*/
+    width: 25px;
+    height: 25px;
+    /*border: solid green 1px;*/
+    background-size: cover;
+    color: white;
 }
 .fb-box{
-     width: 17.5%;
-     border: solid green 5px;
+     background-image: url("https://vitaminsforthesouldotcom.files.wordpress.com/2015/10/facebook-logo-png-white-i6.png");
+     background-size: cover;
+     width: 25px;
+     height: 25px;
+     /*border: solid green 1px;*/
 }
+
 .ham-menu{
-    width: 17.5%;
-    border: solid green 5px;
+    width: 10vw;
+    height: 10vh;
+    /*border: solid green 1px;*/
+    /*margin-top: -40px;*/
+    
+    
 }
+.circle-thin{
+text-align: center;
+width:8vw;
+height:10vh;
+}
+.bars{
+    width: 100%;
+    height: 3vh;
+    text-align: center;
+    /*border: solid green 1px;*/
+    margin-top: 50px;
+}
+
 .main-text-wrapper{
     width: 100vw;
-    height: 50vh;
-    border: solid pink 5px;
+    /*height: 50vh;*/
+    /*border: solid pink 1px;*/
+    margin-top: 25vh;
        
 }
 .your{
-    border: solid red 1px;
+    /*border: solid red 1px;*/
     width: 50%;
-    height: 75%;
+    height: 35%;
     text-align: center;
     margin: auto;
     font-weight: bolder;
@@ -68,13 +102,49 @@
 }
 .sub-heading{
      width: 50%;
-     border: solid green 1px;
+     /*border: solid green 1px;*/
      text-align: center;
      height: 25%;
      margin: auto;
+     font-size: 25px;
+}
+.drop-down-icon{
+    width: 60px;
+    height: 60px;
+    /*border: solid black;*/
+    margin: auto;
+    margin-top: 68px;
+
 }
 #arrow-box{
-width: 25px;
-height: 25px;
-border: solid black;
+width: 15px;
+height: 15px;
+/*border: solid  1px;*/
+margin: auto;
+text-align: center;
+color: gray;
+}
+
+.white-circle{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin: auto;
+    background-color: white;
+    /*border: solid black 1px;*/
+}
+ 
+ 
+@media (max-width: 700px) {
+    .header-wrapper{
+    display: none;
+    }
+}
+@media (min-width: 700px) {
+    .ham-menu{
+        display: none;
+    }
+    .soc-med-wrapper {
+        display:none;
+    }
 }
