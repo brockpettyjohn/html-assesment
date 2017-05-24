@@ -8,6 +8,7 @@
     font-family: 'Maven Pro', sans-serif;
     color: white;
     background-repeat: no-repeat;
+    font-weight: bolder;
 }
  .header-wrapper{
      width: 100vw;
@@ -15,7 +16,7 @@
      display: flex;
      justify-content: space-around;
      font-size: 35px;
-     font-weight: bolder;
+     
  } 
  .home-box{
      width: 33%;
@@ -58,13 +59,14 @@
 .fb-box{
      background-image: url("https://vitaminsforthesouldotcom.files.wordpress.com/2015/10/facebook-logo-png-white-i6.png");
      background-size: cover;
-     width: 30px;
-     height: 30px;
+     width: 25px;
+     height: 25px;
+     margin-left: 40px;
      /*border: solid green 1px;*/
 }
 
 .ham-menu{
-    width: 10vw;
+    width: 25vw;
     height: 10vh;
     /*border: solid green 1px;*/
     /*margin-top: -40px;*/
